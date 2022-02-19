@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Clothes">
+
+    <Button
+        android:id="@+id/butt1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="170dp"
+        android:gravity="center"
+        android:text="Women's Clothing Sizes"
+        android:textAlignment="center"
+        android:textColor="@color/b3"
+        android:backgroundTint="@color/b1"/>
+
+    <Button
+        android:id="@+id/butt2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="-153dp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textColor="@color/b3"
+
+        android:text=" Men's Clothing Sizes"
+        android:backgroundTint="@color/b1"/>
+</RelativeLayout>

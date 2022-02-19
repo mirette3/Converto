@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Home">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="100dp"
+        android:text="Choose the Type "
+        android:textAlignment="center"
+        android:textColor="@color/b1"
+        android:textColorHighlight="@color/white"
+        android:textSize="20sp"
+        android:textAllCaps="true"
+        android:textAppearance="@color/b1"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="150dp"
+        android:textColor="@color/b3"
+        android:text="Clothes"
+        android:backgroundTint="@color/b1"/>
+
+    <Button
+        android:backgroundTint="@color/b1"
+        android:id="@+id/button2"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_alignRight="@id/button1"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="40dp"
+        android:textColor="@color/b3"
+        android:text="Time" />
+
+    <Button
+        android:backgroundTint="@color/b1"
+        android:id="@+id/button3"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="-150dp"
+        android:textColor="@color/b3"
+        android:text="Weight" />
+
+    <Button
+        android:backgroundTint="@color/b1"
+        android:id="@+id/button4"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_alignRight="@id/button3"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="-150dp"
+        android:text="Length"
+        android:textColor="@color/b3" />
+
+    <Button
+        android:backgroundTint="@color/b1"
+        android:id="@+id/button5"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="200dp"
+        android:textColor="@color/b3"
+        android:text="Temperature" />
+
+
+</RelativeLayout>

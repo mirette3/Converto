@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Convertoo</string>
+    
+    <string-array name="sizes">
+        <item> Choose Size.. </item>
+        <item> XS </item>
+        <item> S </item>
+        <item> M </item>
+        <item>  L</item>
+        <item>  XL</item>
+        <item> XXL </item>
+    </string-array>
+</resources>
